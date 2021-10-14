@@ -1,18 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         int currentbalance = 250;
-        int add = 1155;
+        int add = 2000;
         int balance = currentbalance + add;
-        int bonus = 100;
-        int totalbonus = add / bonus;
+        int bonus = add / 100;
         if (add > 100) {
-            System.out.println(totalbonus);
+            System.out.println(bonus);
         }
         System.out.println(balance);
-
-
-
-
 
 
 
